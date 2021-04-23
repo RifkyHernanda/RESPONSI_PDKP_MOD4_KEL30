@@ -16,12 +16,12 @@ def encode(kalimat):
   return hasil_encode
 n = 0
 while(n<1):
-    pilihan = input("apa yang mau kamu lakukan? (pilih 1 untuk enkripsi, 2 untuk dekripsi, 3 untuk keluar) : ")
+    pilihan = input("Silahkan pilih tujuan anda (1. Enkripsi kalimat, 2. Dekripsi kalimat, 3. Keluar) : ")
     if pilihan == '1':
         kalimat = input('Masukkan kalimat yang ingin dienkripsi : ')
         hasil = encode(kalimat)
         print('kalimat :',kalimat," berhasil di enkripsi menjadi :",hasil)
-        lanjut = input("lanjutkan program(iya/tidak): ")
+        lanjut = input("Apakah anda ingin melanjutkan program ?(iya/tidak): ")
         if lanjut == 'iya':
             n = 0
         elif lanjut == 'tidak':
@@ -30,7 +30,7 @@ while(n<1):
         kalimat = input('Masukkan kalimat yang ingin didekripsi : ')
         hasil = d1.decodex(kalimat)
         print('kalimat :',kalimat," berhasil di dekripsi menjadi :",hasil)
-        lanjut = input("lanjutkan program(iya/tidak): ")
+        lanjut = input("Apakah anda ingin melanjutkan program ?(iya/tidak): ")
         if lanjut == 'iya':
             n = 0
         elif lanjut == 'tidak':
