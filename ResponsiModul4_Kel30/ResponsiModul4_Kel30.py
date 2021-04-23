@@ -16,7 +16,7 @@ def encode(kalimat):
   return hasil_encode
 n = 0
 while(n<1):
-    pilihan = input("mau ngapain? (1 untuk enkripsi, 2 untuk dekripsi, 3 untuk keluar) : ")
+    pilihan = input("apa yang mau kamu lakukan? (pilih 1 untuk enkripsi, 2 untuk dekripsi, 3 untuk keluar) : ")
     if pilihan == '1':
         kalimat = input('Masukkan kalimat yang ingin dienkripsi : ')
         hasil = encode(kalimat)
